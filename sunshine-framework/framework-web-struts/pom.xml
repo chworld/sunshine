@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>sunshine-framework</artifactId>
+        <groupId>com.chworld.sunshine</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>framework-web-struts</artifactId>
+    <name>framework-web-struts</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <!-- struts2 -->
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-spring-plugin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-convention-plugin</artifactId>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>cn.xiaojiuwo.bdp</groupId>-->
+            <!--<artifactId>framework-web</artifactId>-->
+            <!--<version>${project.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>cn.xiaojiuwo.bdp</groupId>-->
+            <!--<artifactId>framework-log</artifactId>-->
+            <!--<version>${project.version}</version>-->
+        <!--</dependency>-->
+    </dependencies>
+</project>
